@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Bonus Hunter emblem</title><desc id="desc">A refined black, gold and emerald casino chip emblem with a crown and BH monogram.</desc>
+  <circle cx="256" cy="256" r="235" fill="#0D0D0B" stroke="#D6B15A" stroke-width="12"/>
+  <circle cx="256" cy="256" r="207" fill="none" stroke="#F6E4A9" stroke-width="3"/>
+  <circle cx="256" cy="256" r="181" fill="none" stroke="#0B5545" stroke-width="20" stroke-dasharray="74 22"/>
+  <circle cx="256" cy="256" r="146" fill="#12120F" stroke="#D6B15A" stroke-width="5"/>
+  <g fill="#D6B15A"><path d="M173 196v-59l43 37 40-73 40 73 43-37v59l-83 49z"/><rect x="175" y="201" width="162" height="13" rx="6"/></g>
+  <path d="M186 196h140" stroke="#F8E9BB" stroke-width="3"/>
+  <text x="256" y="350" text-anchor="middle" fill="#F7E9BD" font-family="Georgia,serif" font-size="154" font-weight="700" letter-spacing="-23">BH</text>
+  <g fill="#D6B15A"><path d="M256 53l10 16-10 16-10-16z"/><path d="M256 427l10 16-10 16-10-16z"/><path d="M53 256l16-10 16 10-16 10z"/><path d="M427 256l16-10 16 10-16 10z"/></g>
+</svg>
