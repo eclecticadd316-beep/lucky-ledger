@@ -1,4 +1,4 @@
-# Lucky Ledger
+# Bonus Hunter
 
 A zero-dependency, static referral directory with a privacy-first play tracker, session timer, personal shortlist, pre-play checklist, and CSV export. It runs locally and deploys free to GitHub Pages, Cloudflare Pages, or Netlify.
 
@@ -14,10 +14,10 @@ Then visit `http://localhost:8080`.
 
 ## Free hosting: GitHub Pages (recommended)
 
-1. Create a new GitHub repository (e.g. `lucky-ledger`).
+1. Create a new GitHub repository (e.g. `bonus-hunter`).
 2. Upload the contents of this `referral-hub` folder to the repository root and push to `main`.
 3. In **Settings → Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, then Save.
-4. GitHub provides a free `https://YOUR-USERNAME.github.io/lucky-ledger/` address.
+4. GitHub provides a free `https://YOUR-USERNAME.github.io/bonus-hunter/` address.
 
 No database, paid tools, analytics, or backend are needed. The tracker, session timer, shortlist, and checklist are browser-local (`localStorage`); users can export their own CSV.
 
