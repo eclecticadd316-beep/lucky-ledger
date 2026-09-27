@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Lucky Ledger logo</title>
+  <desc id="desc">A black and gold crown, gaming chip and ledger emblem with the Lucky Ledger wordmark.</desc>
+  <g fill="none" stroke="#C8A24D" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="176" cy="180" r="132" stroke-width="8"/>
+    <circle cx="176" cy="180" r="111" stroke-width="3" stroke-dasharray="10 13"/>
+    <circle cx="176" cy="180" r="90" stroke-width="3"/>
+  </g>
+  <g fill="#11100D" stroke="#C8A24D" stroke-linejoin="round">
+    <path d="M104 158v-51l37 29 35-54 35 54 37-29v51l-72 54z" stroke-width="7"/>
+    <path d="M111 164h130v19H111z" stroke-width="5"/>
+    <path d="M132 200h88v54h-88z" stroke-width="5"/>
+    <path d="M176 200v54" stroke-width="4"/>
+    <path d="M145 214h18M145 230h18M189 214h18M189 230h18" stroke-width="4"/>
+    <circle cx="104" cy="158" r="5" fill="#C8A24D" stroke="none"/><circle cx="176" cy="82" r="5" fill="#C8A24D" stroke="none"/><circle cx="248" cy="158" r="5" fill="#C8A24D" stroke="none"/>
+  </g>
+  <g fill="#11100D">
+    <text x="345" y="161" font-family="Georgia, 'Times New Roman', serif" font-size="94" font-weight="700" letter-spacing="-3">Lucky</text>
+    <text x="640" y="161" font-family="Georgia, 'Times New Roman', serif" font-size="94" font-weight="700" letter-spacing="-3">Ledger</text>
+  </g>
+  <path d="M348 187h670" stroke="#C8A24D" stroke-width="3"/>
+  <text x="350" y="225" fill="#7F672D" font-family="Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="6">PLAY BEAUTIFULLY · KEEP IT INTENTIONAL</text>
+</svg>
