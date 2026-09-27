@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A responsible, organized directory of referral links and a private play tracker.">
+  <meta property="og:title" content="Lucky Ledger — Play beautifully. Keep it intentional.">
+  <meta property="og:description" content="A curated referral directory with privacy-first rewards and budget tools.">
+  <meta name="theme-color" content="#21182f">
+  <title>Lucky Ledger — Referral Directory</title>
+  <link rel="preconnect" href="https://www.google.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="notice" role="note"><b>21+ / legal-age only.</b> Play only where legal. This site is a directory, not gambling advice.</div>
+  <header class="hero" id="top">
+    <nav><a class="brand" href="#top"><span>✦</span> Lucky Ledger</a><div class="nav-links"><a href="#directory">Discover</a><a href="#studio">Play Smart Studio</a><a href="#tracker">My ledger</a><a href="#responsible">Help</a></div></nav>
+    <div class="hero-content"><p class="eyebrow hero-eye">REFERRAL DIRECTORY · PRIVATE TRACKER</p><h1>Play beautifully.<br><em>Keep it intentional.</em></h1><p class="lede">Your glam little black book for referral partners, rewards, and staying delightfully in control.</p><div class="hero-actions"><a class="button primary" href="#directory">Explore the collection <span>↓</span></a><a class="button ghost" href="#studio">Open Play Smart Studio</a></div><p class="micro">Links may be affiliate/referral links. Nothing here is a promise, offer, or financial advice.</p></div>
+    <div class="hero-cards" aria-hidden="true"><div class="float-card crown">♛<span>THE<br>HOUSE EDIT</span></div><div class="float-card chips"><i></i><i></i><i></i><span>LUCKY<br>LEDGER</span></div><div class="float-card sparkle">✦</div></div><div class="orb orb-one"></div><div class="orb orb-two"></div>
+  </header>
+  <div class="marquee" aria-hidden="true"><div>DISCOVER · TRACK · PAUSE · REFLECT · PLAY RESPONSIBLY · DISCOVER · TRACK · PAUSE · REFLECT · PLAY RESPONSIBLY · </div></div>
+  <main>
+    <section class="studio section" id="studio">
+      <div class="section-heading"><div><p class="eyebrow">YOUR PRIVATE TOOLKIT</p><h2>Play Smart Studio.</h2></div><p class="tracker-intro">Thoughtful tools that live only in your browser.</p></div>
+      <div class="studio-grid">
+        <article class="studio-card timer-card"><div class="studio-kicker">SESSION CLOCK</div><div id="timer-display" class="timer-display" aria-live="polite">15:00</div><p id="timer-status">Pick a short session, then take a break.</p><div class="timer-presets"><button data-minutes="15">15 min</button><button data-minutes="30">30 min</button><button data-minutes="45">45 min</button></div><div class="timer-actions"><button id="timer-start" class="button primary">Start timer</button><button id="timer-reset" class="text-button">Reset</button></div></article>
+        <article class="studio-card plan-card"><div class="studio-kicker">THE BEFORE-YOU-PLAY LIST</div><h3>Make it a choice, not a chase.</h3><label class="check-row"><input class="play-check" data-check="budget" type="checkbox"> <span>My entertainment limit is set</span></label><label class="check-row"><input class="play-check" data-check="time" type="checkbox"> <span>I have a time limit</span></label><label class="check-row"><input class="play-check" data-check="mood" type="checkbox"> <span>I’m playing for fun, not to recover losses</span></label><p class="fine-print">Your selections are private and stay on this device.</p></article>
+        <article class="studio-card favorites-card"><div class="studio-kicker">YOUR SHORTLIST</div><strong id="favorite-count">0</strong><span class="favorite-label">saved partners</span><p>Use the heart on any card to save it here for later.</p><a class="button dark-outline" href="#directory">View favorites</a></article>
+      </div>
+    </section>
+    <section class="directory section" id="directory">
+      <div class="section-heading"><div><p class="eyebrow">THE COLLECTION</p><h2>All partners, A–Z.</h2></div><p id="partner-count" class="count"></p></div>
+      <div class="directory-note"><span>✦</span><p><strong>The House Edit:</strong> Every listing was supplied by the site owner. Check each partner’s current offer, terms, availability, and local eligibility before you participate.</p></div>
+      <div class="toolbar"><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Search the collection" autocomplete="off"></label><button id="favorites-toggle" class="filter-button" aria-pressed="false">♡ My favorites</button><button id="clear-search" class="text-button" hidden>Clear</button></div>
+      <div class="alphabet" id="alphabet" aria-label="Jump to letter"></div><div class="partner-grid" id="partner-grid" aria-live="polite"></div><p id="empty-state" class="empty" hidden>No matches. Try a different name.</p>
+    </section>
+    <section class="tracker-section section" id="tracker">
+      <div class="section-heading"><div><p class="eyebrow">YOUR PRIVATE TOOL</p><h2>The Velvet Ledger.</h2></div><p class="tracker-intro">No account. No cloud. No one watching. Your data stays in this browser.</p></div>
+      <div class="ledger-grid"><article class="budget-card"><div class="card-label">MONTHLY ENTERTAINMENT LIMIT</div><form id="budget-form" class="budget-input"><span>$</span><input id="budget" inputmode="decimal" type="number" min="0" step="0.01" placeholder="0.00" aria-label="Monthly entertainment limit"><button>Save</button></form><div class="progress"><div id="budget-progress"></div></div><p id="budget-summary">Set a limit before you play. A limit is not a target.</p></article><article class="stat-card"><div class="card-label">NET THIS MONTH</div><strong id="net-total">$0.00</strong><p>Wins minus losses logged below</p></article><article class="stat-card"><div class="card-label">REWARDS CLAIMED</div><strong id="reward-total">0</strong><p>Tracked on this device</p></article></div>
+      <div class="log-grid"><article class="panel"><h3>Add a ledger entry</h3><form id="entry-form" class="entry-form"><label>Partner<input id="entry-partner" list="partner-options" required placeholder="Choose or type"></label><datalist id="partner-options"></datalist><label>Type<select id="entry-type"><option value="loss">Loss / spend</option><option value="win">Win / redemption</option><option value="reward">Reward claimed</option></select></label><label>Amount <small>(optional for reward)</small><input id="entry-amount" type="number" min="0" step="0.01" inputmode="decimal" placeholder="0.00"></label><label>Note <small>(optional)</small><input id="entry-note" maxlength="80" placeholder="e.g., daily login"></label><button class="button primary">Add entry</button></form></article><article class="panel"><div class="panel-top"><h3>Recent entries</h3><div><button id="export-ledger" class="text-button">Export CSV</button><button id="clear-ledger" class="text-button danger">Clear</button></div></div><div id="entry-list" class="entry-list"><p class="muted">No entries yet.</p></div></article></div>
+    </section>
+    <section class="responsible section" id="responsible"><div><p class="eyebrow">PAUSE IS POWER</p><h2>Gambling should never feel like a plan.</h2><p>Only use money you can afford to lose. Never chase losses. Set a time and money limit before you start, and step away when it stops being fun.</p></div><aside><p class="help-label">IF YOU HAVE A GAMBLING PROBLEM</p><a href="tel:18005224700">Call or text <strong>1-800-GAMBLER</strong></a><p>Free, confidential help in the U.S. 24/7. Visit <a href="https://www.ncpgambling.org/help-treatment/" target="_blank" rel="noopener">NCPG</a> for additional resources.</p></aside></section>
+  </main>
+  <footer><div class="footer-brand">✦ Lucky Ledger</div><div class="disclosure"><strong>Important disclosure &amp; disclaimer</strong><p>This site may contain affiliate or referral links. The owner may receive a benefit if you sign up or transact through a link, at no additional cost to you. Promotions, eligibility, availability, terms, and offers can change without notice. The owner is not responsible for changes to any promotion or offer. You are responsible for reviewing each partner’s current terms, verifying legality and age eligibility in your location, and doing your own due diligence before participating. This directory does not endorse, guarantee, or provide advice about any partner.</p></div><p class="copyright">© <span id="year"></span> Lucky Ledger · Play responsibly.</p></footer>
+  <template id="card-template"><article class="partner-card"><div class="partner-top"><img class="logo" alt="" loading="lazy" referrerpolicy="no-referrer"><button class="favorite" aria-label="Add to favorites" aria-pressed="false">♡</button></div><h3></h3><div class="card-meta"></div><div class="card-actions"></div></article></template>
+  <script src="partners.js"></script><script src="app.js"></script>
+</body></html>
