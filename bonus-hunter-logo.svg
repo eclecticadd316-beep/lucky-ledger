@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1520 500" role="img" aria-labelledby="title desc">
+  <title id="title">Bonus Hunter</title><desc id="desc">Bonus Hunter black, gold and emerald casino-inspired brand identity.</desc>
+  <g transform="translate(25 0)">
+    <circle cx="250" cy="250" r="225" fill="#0D0D0B" stroke="#D6B15A" stroke-width="12"/>
+    <circle cx="250" cy="250" r="198" fill="none" stroke="#F6E4A9" stroke-width="3"/>
+    <circle cx="250" cy="250" r="173" fill="none" stroke="#0B5545" stroke-width="21" stroke-dasharray="72 22"/>
+    <circle cx="250" cy="250" r="140" fill="#12120F" stroke="#D6B15A" stroke-width="5"/>
+    <g fill="#D6B15A"><path d="M169 191v-56l42 35 39-70 39 70 42-35v56l-81 48z"/><rect x="171" y="196" width="158" height="13" rx="6"/></g>
+    <path d="M181 191h138" stroke="#F8E9BB" stroke-width="3"/>
+    <text x="250" y="344" text-anchor="middle" fill="#F7E9BD" font-family="Georgia,serif" font-size="150" font-weight="700" letter-spacing="-23">BH</text>
+    <g fill="#D6B15A"><path d="M250 48l10 16-10 16-10-16z"/><path d="M250 420l10 16-10 16-10-16z"/><path d="M48 250l16-10 16 10-16 10z"/><path d="M420 250l16-10 16 10-16 10z"/></g>
+  </g>
+  <g transform="translate(535 0)">
+    <text x="0" y="212" fill="#F9F0DC" font-family="Georgia, 'Times New Roman', serif" font-size="114" font-weight="700" letter-spacing="7">BONUS</text>
+    <text x="0" y="337" fill="#D6B15A" font-family="Georgia, 'Times New Roman', serif" font-size="114" font-weight="700" letter-spacing="2">HUNTER</text>
+    <path d="M4 363h740" stroke="#D6B15A" stroke-width="3"/>
+    <text x="4" y="403" fill="#E3CC8A" font-family="Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="7">FIND THE BONUS · KEEP IT INTENTIONAL</text>
+  </g>
+</svg>
